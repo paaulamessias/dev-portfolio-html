@@ -29,3 +29,10 @@
   --text-md: 400 16px/140% var(--maven-pro);
   --text-sm: 400 14px/140% var(--maven-pro);
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--gray-300);
+}
