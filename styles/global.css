@@ -36,3 +36,23 @@ body {
   align-items: center;
   background-color: var(--gray-300);
 }
+
+h3 {
+  color: var(--gray-500);
+  font: var(--inconsolata);
+}
+
+h3 span {
+  color: var(--red);
+}
+
+h1 {
+  color: var(--gray-600);
+  font: var(--asap);
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: var(--gray-400);
+  font: var(--maven-pro);
+}
