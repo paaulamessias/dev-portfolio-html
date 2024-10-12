@@ -34,7 +34,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--gray-300);
+  background-color: black;
 }
 
 h3 {
@@ -56,3 +56,25 @@ h2 {
   color: var(--gray-400);
   font: var(--maven-pro);
 }
+
+.tags {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.tag {
+  display: flex;
+  padding: 8px 16px;
+  align-items: center;
+  gap: 8px;
+
+  border-radius: 999px;
+  background-color: var(--gray-300);
+}
+
+#icone {
+  margin-top: 94px;
+}
+
