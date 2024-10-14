@@ -133,3 +133,36 @@ h2 {
   border: 2px solid var(--gray-200);
 }
 
+#header-contact span {
+  font: var(--subtitle);
+  color: var(--purple);
+  margin-top: 128px;
+  margin-bottom: 8px;
+}
+
+#header-contact h2 {
+  font: var(--title-md);
+  color: var(--gray-600);
+  margin-bottom: 8px;
+}
+
+#header-contact h3 {
+  font: var(--text-md);
+  color: var(--gray-500) ;
+  margin-bottom: 48px;
+}
+
+#header-contact span,
+#header-contact h2,
+#header-contact h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.container-contact {
+  display: grid;
+  justify-content: center;
+}
+
+
+
