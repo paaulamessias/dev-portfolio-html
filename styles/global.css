@@ -57,19 +57,22 @@ h2 {
   font: var(--maven-pro);
 }
 
-#subtitle span, h2 {
+#header-subtitle span, h2,
+#header-services span, h2 {
   display: flex;
   justify-content: center;
 }
 
-#subtitle span {
+#header-subtitle span,
+#header-services span {
   font: var(--subtitle);
   color: var(--red);
 
   margin-top: 120px; 
 }
 
-#subtitle h2 {
+#header-subtitle h2,
+#header-services h2 {
   font: var(--title-md);
   color: var(--gray-600);
 
@@ -114,5 +117,19 @@ h2 {
 
 #icone {
   margin-top: 94px;
+}
+
+.container-services {
+  padding: 20px;
+  gap: 24px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.service {
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid var(--gray-200);
 }
 
