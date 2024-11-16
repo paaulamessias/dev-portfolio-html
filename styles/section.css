@@ -52,7 +52,10 @@ padding: 20px 20px 8px;
   border-radius: 8px;
   background: var(--gray-300);
 }
-
+ 
+#contact a {
+  flex: 1;
+}
 
 a {
   font: var(--text-sm);
@@ -68,5 +71,5 @@ a:hover {
 .silk {
   display: flex;
   align-items: center;
-
+  
 }
